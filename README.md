@@ -25,8 +25,8 @@ IO.puts "#{inspect :timer.tc(EQ.Performance, :test_queue, [EQ.new])}"
 
 ## Installation
 
-  1. Add e_queue to your list of dependencies in `mix.exs`:
+  1. Add EQ to your list of dependencies in `mix.exs`:
 
         def deps do
-          [{:e_queue, "~> 1.0.0"}]
+          [{:e_q, "~> 1.0.0"}]
         end
